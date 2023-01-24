@@ -1,6 +1,6 @@
 # Potato-Plant-lead-Disease-Prediction
 
-### A Potato Plant Disease Prediction project is a machine learning system that uses image processing and classification techniques to predict and diagnose diseases in potato plants. The project aims to develop a system that can accurately diagnose diseases in potato plants based on images of the plants, and provide recommendations for treatment.
+### A Potato Plant Disease Prediction project is a machine learning system that uses image processing and classification techniques to predict and diagnose diseases in potato plants. The project aims to develop a system that can accurately diagnose diseases in potato plants based on images of the plants leaf, and provide recommendations for treatment.
 
 ### The project would involve the following steps:
 
