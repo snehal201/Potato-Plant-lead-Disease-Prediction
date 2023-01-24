@@ -25,17 +25,12 @@ def prediction():
 	img.save("img.jpg")
 
 	image = cv2.imread("img.jpg")
-
 	image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-
 	image = cv2.resize(image, (256,256))
-
 	image = np.reshape(image, (1,256,256,3))
-
 	pred = model.predict(image)
-
 	pred = np.argmax(pred)
-
+	
 	pred = labels[pred]
 
 	return render_template("prdiction.html", data=pred)
